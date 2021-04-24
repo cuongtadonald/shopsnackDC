@@ -1,0 +1,95 @@
+.page-footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 285px;
+    margin-top: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-footer .row {
+    justify-content: center;
+}
+.page-footer .footer-box1 {
+    color: white;
+    margin-left: 50px;
+    padding-top: 65px;
+}
+.page-footer .footer-box1 a {
+    font-size: 36px;
+    display: block;
+}
+.social-share {
+    display: flex;
+}
+.footer-box1 {
+    width: 320px;
+    height: 156.875px;
+}
+.social-item {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.social {
+    margin-left: -36px;
+    display: inline-block;
+}
+.footer-box2 {
+    margin-top: 50px;
+}
+.footer-box2 {
+    width: 640px;
+    height: 225px;
+}
+.footer-box2 ul {
+    list-style: circle;
+    
+}
+.footer-box2 .footer-link {
+    font-size: 13px;
+}
+.footer-box2 .footer-link a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.row {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.col {
+    width: 193.328px;
+    height: 132px;
+}
+.h5 {
+    margin-left: -20px;
+}
+.footer-link a:hover {
+    color:  #9f7656;
+}
+li.social-item:hover {
+    color:  #9f7656;
+}
+.footer-box3 {
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 320px;
+    height: 225px;
+}
+.control {
+    display: flex;
+}
+input {
+    background-color: black;
+}
+.footer-payment {
+    margin-top: 25px;
+}
+.footer-box3 .h5 {
+    margin-left: 1px;
+}

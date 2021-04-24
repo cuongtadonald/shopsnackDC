@@ -1,0 +1,52 @@
+﻿@model PagedList.IPagedList<shopsnackDCConnection.SanPham>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="body-main">
+    <div class="section">
+        <div style="height: 30px;">
+            <div style="margin-top: 6px; margin-left: 60px;">
+                <span>Bạn đang ở: </span>
+                <a href="">@Html.ActionLink("Trang chủ", "Index", "Home")</a>
+                <i class="fa fa-chevron-right"></i>
+                <a href="">@Html.ActionLink("Snack", "Index", "ShopDC")</a>
+            </div>
+        </div>
+        <div class="laptop">
+            <ul class="item-laptop bc-smoke">
+                @foreach (var item in Model)
+                {
+                    <li class="item">
+                        <a href="@Url.Action("Details", new {id = item.MaSP})">
+                            <div class="item-delta">
+                                <div class="image-size">
+                                    <img src="~/Asset/images/@item.HinhAnh" alt="" />
+                                </div>
+                                <a href="@Url.Action("Details", new {id = item.MaSP})"><h3>@item.TenSP</h3></a>
+                                <div class="price">
+                                    <strong>@item.Gia₫</strong>
+                                    <span>20000₫</span>
+                                    <i>-10%</i>
+                                </div>
+
+                                <div class="buttons">
+                                    <button>Mua</button>
+                                </div>
+
+                            </div>
+                        </a>
+                    </li>
+                }
+
+            </ul>
+        </div> <!--======= .laptop ======= -->
+        <div class="row text-center">
+            <ul class="pagination">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+            </ul>
+        </div>
+    </div>
+</div> 
