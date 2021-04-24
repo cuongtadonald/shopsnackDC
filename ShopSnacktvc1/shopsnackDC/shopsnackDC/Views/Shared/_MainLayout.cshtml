@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "_MainLayout";
+}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>DC SHOP</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/Content/faw511all.css">
+    <link rel="stylesheet" href="~/Content/style.css">
+    <link rel="stylesheet" href="~/Content/infProduct1.css" />
+
+</head>
+<body>
+    <div class="body-main">
+
+        @*Đổ dữ liệu theo kiểu html.partial sau đó chuyển vê mvchtmlstring*@    
+    @{ 
+        var headertvc = Html.Partial("_HeaderSnackDC");
+        headertvc = new MvcHtmlString(headertvc.ToString());
+    }
+    @headertvc
+        
+
+        <div style="margin-top: 98px;">
+            @RenderBody()
+        </div>   
+
+
+
+    @*Đổ dữ liệu theo kiểu render partial*@
+    @{Html.RenderPartial("_FooterSnackDC"); }
+
+   
+    </div> <!-- .body-main -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/Scripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

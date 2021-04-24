@@ -1,0 +1,14 @@
+﻿@model IEnumerable<shopsnackDCConnection.NhaSanXuat>
+
+<li>
+    <div class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="./html/laptop.html"><i class="fas fa-laptop"></i> Thương hiệu</a>
+        <div class="dropdown-menu" style="background-color: black">
+            @foreach (var item in Model)
+            {
+                <a class="dropdown-item" href="@Url.Action("Index","NhaSanXuat",new { id = item.MaNhaSX})">@item.TenNhaSX</a>
+            }
+
+        </div>
+    </div>
+</li>  

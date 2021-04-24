@@ -1,0 +1,727 @@
+
+
+
+/*--------------------------------------------------------------
+# khuyenmai
+--------------------------------------------------------------*/
+.gsct {
+    margin-bottom: -26px;
+    z-index: 0;
+}
+.navigat .image {
+    display: block;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 309px;
+    height: 38px;
+    
+}
+.laptop .bc-orange {
+    border: 1px solid #ff4d00;
+}
+
+.laptop .bc-pink {
+    border: 1px solid #ba0953;
+}
+
+.laptop .bc-smoke {
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.phukien .bc-smoke {
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+/*--------------------------------------------------------------
+# home-banner
+--------------------------------------------------------------*/
+.haha{
+    position: fixed;
+    z-index: 1;
+}
+.body-main .split-left {
+    width: 1135px;
+    height: 300px;
+    margin: 5px 0px;
+}
+.body-main .custom-carousel {
+    width: 800px;
+    height: 300px;
+}
+.body-main .hide-this {
+    opacity: 0;
+}
+/*
+.carousel-inner {
+    margin-left: 65px;
+}
+*/
+
+/*--------------------------------------------------------------
+# Chinh Sach
+--------------------------------------------------------------*/
+.help-main {
+    width: 1200px;
+    margin: auto;
+}
+.help-main h2 {
+    color: #666;
+    font-size: 24px;
+    line-height:32px;
+    margin-bottom:16px;
+}
+#help-main p
+{
+    margin-bottom:18px;
+    line-height:25px
+}
+/**/
+.item-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -25px;
+}
+.item-footer a {
+    text-decoration: none;
+}
+/*--------------------------------------------------------------
+# Custom Button
+--------------------------------------------------------------*/
+.custom-btn {
+    padding: 7px 16px;
+    margin: 16px 0px;
+    border-radius: 5%;
+    border: 1px solid;
+    color: #9f7656;
+    font-size: 13px;
+    text-align: center;
+    transition: 0.3s;
+}
+.custom-btn:hover {
+    margin: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    color: white;
+    background-color: #222;
+    border-color: #222;
+}
+.body-main {
+    width: 1200px;
+    margin: auto;
+}
+.logo {
+    width: 200px;
+    /*margin-bottom: -15px;*/
+    margin-left: -10px;
+    cursor: pointer;
+}
+.header-item {
+    width: 1200px;
+    height: 20px;
+    display: flex;
+    list-style: none;
+    margin-left: 61%;
+    margin-top: -35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.header-item .item-hotline {
+    font-weight: bolder;
+    margin-top: 5px;
+    padding-right: 20px;
+}
+.header-item .item-account {
+    text-align: center;
+    padding-right: 20px;
+    margin-top: -10px;
+}
+.header-item .fa-user-circle {
+    font-size: xx-large;
+    padding-right: 5px;
+}
+.header-item .fa-shopping-bag {
+    font-size: xx-large;
+    padding-right: 5px;
+}
+.header-item .item-account .acc-top{
+    font-weight: 200;
+    color: #333;
+    line-height: 0.35;
+}
+.header-item .item-account .acc-bottom{
+    font-weight: 600;
+    color: #333;
+}
+.header-item .item-cart {
+    font-weight: 400;
+    color: #333;
+    line-height: 1.35;
+    margin-top: 5px;
+}
+ul.nav-item {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /*text-align: center;*/
+    list-style: none;   
+}
+ul.nav-item li{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+.nav-bar {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+ul.nav-item a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.25s;
+}
+ul.nav-item a:hover {
+    color: #9f7656;
+    padding: 10px;
+}
+
+.navigat {
+    width: 1200px;
+    height: 45px;
+    /*margin-left: 66px;*/
+    /*margin-bottom: -17px;*/
+    background-color: white;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.page-footer {
+    background-color: black;
+}
+.page-footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 285px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-footer .footer-row {
+    width: 1200px;
+    justify-content: center;
+}
+.page-footer .footer-box1 {
+    color: white;
+    margin-left: 20px;
+    padding-top: 65px;
+
+}
+.page-footer .footer-box1 a {
+    font-size: 28px;
+    display: block;
+}
+.social-share {
+    display: flex;
+}
+.footer-box1 {
+    width: 320px;
+    height: 156.875px;
+}
+.social {
+    width: 320px;
+    margin-left: -36px;
+    display: inline-block;
+}
+.social-item {
+    width: 320px;
+    font-size: xx-large;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-box2 {
+    margin-top: 50px;
+}
+.footer-box2 {
+    width: 640px;
+    height: 225px;
+}
+.footer-box2 ul {
+    list-style: circle;
+    
+}
+.footer-box2 .footer-link {
+    font-size: 12px;
+}
+.footer-box2 .footer-link a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.footer-row {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.col {
+    width: 193.328px;
+    height: 132px;
+}
+.h5 {
+    margin-left: -20px;
+    font-size: 13px;
+}
+.footer-link a:hover {
+    color:  #9f7656;
+}
+li.social-item:hover {
+    color:  #9f7656;
+}
+.footer-box3 {
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 320px;
+    height: 225px;
+}
+.footer-box3 .control {
+    display: flex;
+    border-bottom: 1px solid white;
+    height: 40px;
+    width: 235px;
+}
+.footer-box3 .control i {
+    font-size: larger;
+    padding: 10px 5px 0 6px;
+    border-bottom: 1px white;
+    transition: 0.25s;
+}
+.footer-box3 .control input {
+    color: white;
+    outline: none;
+    display: block;
+    background-color: black;
+    border: 1px solid black;
+}
+.fa-arrow-right:hover {
+    margin-left: -5px;
+}
+.footer-payment {
+    margin-top: 25px;
+}
+.footer-box3 .h5 {
+    margin-left: 1px;
+}
+/*--------------------------------------------------------------
+# Laptop
+--------------------------------------------------------------*/
+.laptop .item-laptop {
+    width: 1200px;
+    clear: both;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+}
+.laptop ul {
+    padding-left: 0px;
+}
+.laptop .item-laptop li {
+    float: left;
+    position: relative;
+    width: 19.917%;
+    overflow: hidden;
+    border-right: 1px solid  #eee;
+    border-bottom: 1px solid  #eee;
+}
+.laptop .item-laptop {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+    .laptop .item-laptop .item {
+        padding-top: 15px;
+        width: auto;
+        height: auto;
+        display: inline-block;
+        list-style: none;
+    }
+.laptop .item-laptop .item a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.laptop .item-laptop .item a .image-size {
+    margin: 45px auto;
+    display: block;
+    transition: 0.3s;
+}
+.laptop .item-laptop .item a:hover .image-size {
+    margin: 30px auto 60px auto;
+}
+.laptop .item-laptop .item a img {
+        width: auto;
+        height: 300px;
+        display: block;
+        margin: -29px auto;
+}
+.laptop .item-laptop .item a h3 {
+    word-break: break-all;
+    display: block;
+    line-height: 18px;
+    font-size: 14px;
+    margin: 0 10px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.laptop .item-laptop .item a:hover h3 {
+    color:  #9f7656;
+}
+.laptop .item-laptop .item .item-delta .props {
+    margin: 0 10px;
+    padding: 0;
+    white-space: unset;
+}
+.laptop .item-laptop .item .item-delta .props span {
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px 0 0;
+    border: 1px solid #eee;
+    padding: 0 5px !important;
+}
+.laptop .item-laptop .item .item-delta .props span {
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777;
+    line-height: 22px;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px 0 0;
+    border: 1px solid #eee;
+    padding: 0 5px !important;
+}
+.laptop .item-laptop .item .item-delta .price{
+    display: block;
+    padding: 0;
+    margin: 5px 10px 0;
+}
+.laptop .item-laptop .item .item-delta .price strong {
+    font-weight: bold;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    font-size:14px;
+    color:#bf081f;
+    line-height:15px
+}
+.laptop .item-laptop .item .item-delta .price span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: #222;
+}
+.laptop .item-laptop .item .item-delta .price i {
+    font-size: 12px;
+    color: #d0021b;
+    margin: 0 5px 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+}
+.laptop .item-laptop .item .item-delta .promo p {
+    font-size:12px;
+    color:#333;
+    line-height:1.4;
+    width:165px;
+    float:left;
+    margin-left:10px;
+    white-space:normal;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden
+}
+
+/*--------------------------------------------------------------
+# Phu Kien
+--------------------------------------------------------------*/
+.custom-margin-phukien {
+    width: 1200px;
+    margin-bottom: 32px;
+    margin-left: 24%;
+    background-color: transparent;
+}
+.navigat .fixed-size {
+    width: 640px;
+    height: 88px;
+}
+.navigat h2 {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    padding: 0px 10px;
+
+}
+.phukien .item-phukien {
+    width: 1200px;
+    clear: both;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+}
+.phukien .borderpk {
+    border: 2px solid #ba0953;
+}
+.phukien ul {
+    padding-left: 0px;
+}
+.phukien .item-phukien li {
+    float: left;
+    position: relative;
+    width: 19.917%;
+    overflow: hidden;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.phukien .item-phukien {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}    
+.phukien .item-phukien .item{
+    padding-top: 15px;
+    width: 239.2px;
+    height: 438.141px;
+    display: inline-block;
+    list-style: none;
+}
+.phukien .item-phukien .item a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.phukien .item-phukien .item a .image-size {
+    margin: 45px auto;
+    display: block;
+    transition: 0.3s;
+}
+.phukien .item-phukien .item a:hover .image-size {
+    margin: 30px auto 60px auto;
+}
+.phukien .item-phukien .item a img { 
+    width: 180px;   
+    height: 180px;
+    display: block;
+    margin: 15px auto;
+}
+.phukien .item-phukien .item a h3 {
+    word-break: break-all;
+    display: block;
+    line-height: 1.3em;
+    font-size: 14px;
+    margin: 0 10px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.phukien .item-phukien .item a:hover h3 {
+    color:  #9f7656;
+}
+.phukien .item-phukien .item .item-delta .props {
+    margin: 0 10px;
+    padding: 0;
+    white-space: unset;
+}
+.phukien .item-phukien .item .item-delta .props span {
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px 0 0;
+    border: 1px solid #eee;
+    padding: 0 5px !important;
+}
+.phukien .item-phukien .item .item-delta .props span {
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777;
+    line-height: 22px;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+    margin: 5px 0 0;
+    border: 1px solid #eee;
+    padding: 0 5px !important;
+}
+.phukien .item-phukien .item .item-delta .price{
+    display: block;
+    padding: 0;
+    margin: 5px 10px 0;
+}
+.phukien .item-phukien .item .item-delta .price strong {
+    font-weight: bold;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    font-size:14px;
+    color:#bf081f;
+    line-height:15px
+}
+.phukien .item-phukien .item .item-delta .price span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: #222;
+}
+.phukien .item-phukien .item .item-delta .price i {
+    font-size: 12px;
+    color: #d0021b;
+    margin: 0 5px 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+}
+.phukien .item-phukien .item .item-delta .promo p {
+    font-size:12px;
+    color:#333;
+    line-height:1.4;
+    width:165px;
+    float:left;
+    margin-left:10px;
+    white-space:normal;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden
+}
+/*--------------------------------------------------------------
+# Table Delivery
+--------------------------------------------------------------*/
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.help-main h1 {
+    color: #666;
+    font-size: 23px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+/*--------------------------------------------------------------
+# Khoang Cach Footer
+--------------------------------------------------------------*/
+.top-height {
+    margin-top: 90px;
+}
+/*--------------------------------------------------------------
+# Tai Khoan
+--------------------------------------------------------------*/
+.form-area {
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+button,
+select {
+font-family: var(--font);
+font-size: 1.4rem;
+font-weight: 300;
+outline: none;
+border: 0;
+margin: 0;
+padding: 0;
+border-radius: 0;
+-webkit-appearance: none;
+}
+
+.login-form {
+    font-size: 14px;
+}
+
+button {
+cursor: pointer;
+}
+
+.login-form {
+max-width: 35rem;
+margin: 0 auto;
+padding: 1.5rem;
+}
+.login-form input {
+padding: 1.5rem;
+border: 1px solid #eee;
+color: #333;
+border-radius: 4px;
+margin-bottom: 1.5rem;
+display: block;
+width: 100%;
+transition: border 0.25s linear;
+font-weight: normal;
+}
+.login-form input:focus {
+border-color: var(--primary);
+}
+.login-form .forgot {
+display: inline-block;
+text-transform: uppercase;
+color: #333;
+font-size: 1.2rem;
+font-weight: 600;
+margin-bottom: 1.5rem;
+}
+.login-form button {
+width: 100%;
+padding: 1.5rem;
+border-radius: 4px;
+color: white;
+background-color: var(--primary);
+text-transform: uppercase;
+font-size: 14px;
+}
+.login-form .input-icon {
+position: relative;
+}
+.login-form .input-icon input {
+padding-right: 4rem;
+}
+.login-form .input-icon i {
+position: absolute;
+top: 50%;
+right: 1.5rem;
+transform: translateY(-50%);
+color: #ccc;
+cursor: pointer;
+}

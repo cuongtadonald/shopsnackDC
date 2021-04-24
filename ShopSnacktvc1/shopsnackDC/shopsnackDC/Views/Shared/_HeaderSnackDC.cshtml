@@ -1,0 +1,31 @@
+﻿<div class="haha" style="margin-top: -98px; width: 1200px; height: 89px;">
+    <div style="background-color: #ffffff; height: 51px;">
+        <div class="brand">
+            <a href="@Url.Action("Index","Home")"><img class="logo" src="~/Asset/images/logo.png" alt=""></a>
+            <ul class="header-item" style="margin-top: -30px">
+                <li class="item-hotline">Hotline: 1900.8079</li>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <li class="item-account">
+                    <span class="acc-top">Đăng nhập tài khoản</span><br>
+                    <span class="acc-bottom">Tài khoản của bạn</span>
+                </li>
+                <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                <li class="item-cart">GIỎ HÀNG</li>
+                
+            </ul>
+        </div> <!-- .brand -->
+    </div>
+    <div class="nav-bar">
+        <ul class="nav-item" style="text-align: center">
+            <li><a href="./index.html"><i class="fas fa-home    "></i>@Html.ActionLink("Trang chủ", "Index", "Home")</a></li>
+            @Html.Partial("_NhaSanXuat", shopsnackDC.Models.BUS.NhaSanXuatBUS.DanhSach()) @*TRUY XUẤT TRỰC TIẾP sau đó phải cập nhật lại cho tk peta poco*@
+            <li><a href=""><i class="fab fa-slack"></i>@Html.ActionLink("Snack", "Index", "ShopDC")</a></li>
+            <li><a href="~/Views/ShopDC/Index.cshtml"><i class="fas fa-newspaper    "></i>Kẹo</a></li>
+            <li><a href="./html/tintuc.html"><i class="fas fa-newspaper    "></i>GUM & MINTS</a></li>
+            <li><a href="./html/tintuc.html"><i class="fas fa-newspaper    "></i>Tin tức</a></li>
+            <li><a href="./html/taikhoan.html"><i class="fas fa-user-alt    "></i>Tài khoản</a></li>
+            <li><a href=""><i class="fas fa-search    "></i></a></li>
+        </ul>
+    </div> <!-- .nav-bar -->
+    <div class="top-height"></div>
+</div>
